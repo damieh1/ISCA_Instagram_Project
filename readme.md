@@ -10,7 +10,7 @@ This repository contains:
 The goal of this project is to annotate **visual content posted by anti-Israel groups**.  
 Labels include **emotional content, text presence, scene types, potential support for terrorism, stance, and emotional impact**.  
 
-⚠️ **Important note on ethics:** This taxonomy is for **research purposes only**. Annotators should describe content **neutrally** and avoid amplifying harmful or extremist material.
+⚠️ **Important note on ethics:** This taxonomy is for **research purposes only**. Annotators are supposed to describe content **neutrally**.
 
 ---
 
