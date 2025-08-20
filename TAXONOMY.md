@@ -1,6 +1,6 @@
 # Image Classification Taxonomy & Guidelines (Label Studio)
 
-This taxonomy supports research on **visual content posted by anti-Israel groups**. It is designed for **image classification** tasks in Label Studio and aims to capture **scene type**, **stance**, **potential support for terrorism**, and **emotional impact**. The focus is descriptive and analytical; **annotators must not add or promote harmful content**.
+This taxonomy supports research on **visual content posted by Instagram groups**. It is designed for **image classification** tasks in Label Studio and aims to capture **scene type**, **stance**, **potential support for terrorism**, and **emotional impact**. The focus is descriptive and analytical; **annotators must not add or promote harmful content**.
 
 > **Important ethics note:** Annotate neutrally and descriptively. If content appears to advocate violence, record it without amplifying or sharing it beyond the research workflow. Follow platform and institutional guidelines for handling extremist imagery.
 
