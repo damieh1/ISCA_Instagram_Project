@@ -76,7 +76,7 @@
   </Choices>
 
   <!-- Section 6: Text capture & notes -->
-  <Header value="6) Visible Text \& Notes"/>
+  <Header value="6) Visible Text Notes"/>
   <TextArea name="transcribed_text" toName="image" rows="3" placeholder="Transcribe any visible text (banners, captions, signs)."/>
   <TextArea name="notes" toName="image" rows="3" placeholder="Brief rationale; mention symbols/logos/flags or anything used to make decisions."/>
 </View>
