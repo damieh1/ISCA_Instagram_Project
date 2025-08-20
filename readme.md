@@ -35,3 +35,17 @@ pip install label-studio
 
 # Run Label Studio
 label-studio
+```
+### Option 2: Install via Homebrew (macOS only)
+```bash
+brew tap humansignal/tap
+brew install humansignal/tap/label-studio
+label-studio
+```
+
+### Option 3: Run with Docker (Any OS)
+```bash
+docker pull heartexlabs/label-studio:latest
+docker run -it -p 8080:8080 -v $(pwd)/mydata:/label-studio/data heartexlabs/label-studio:latest
+```
+
