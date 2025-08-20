@@ -50,3 +50,12 @@ docker pull heartexlabs/label-studio:latest
 docker run -it -p 8080:8080 -v $(pwd)/mydata:/label-studio/data heartexlabs/label-studio:latest
 ```
 
+
+<div style="font-size: 0.2em; color: #555; margin-top: 2em;">
+  <p>
+    All materials in this repository were created by <a href="https://damieh1.github.io/">Daniel Miehling</a>, unless otherwise noted.
+  </p>
+  <p>
+    Please contact <a href="mailto:damieh@iu.edu">damieh@iu.edu</a> for reuse permissions or collaboration inquiries.
+  </p>
+</div>
