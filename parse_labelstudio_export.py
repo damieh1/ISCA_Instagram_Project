@@ -1,5 +1,7 @@
 """"
 ---------------------------------
+|WORK IN PROGRESS :-)           |
+---------------------------------
 Parse a Label Studio JSON export (for image classification project) into a tidy pandas DataFrame.
 
 Works with the labeling config that includes the following controls:
@@ -209,3 +211,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
