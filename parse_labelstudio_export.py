@@ -1,6 +1,6 @@
 """"
 ---------------------------------
-|WORK IN PROGRESS :-)           |
+| WORK IN PROGRESS :-)          |
 ---------------------------------
 Parse a Label Studio JSON export (for image classification project) into a tidy pandas DataFrame.
 
@@ -211,4 +211,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
