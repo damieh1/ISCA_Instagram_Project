@@ -1,0 +1,66 @@
+{
+  "fields": {
+    "emotional_content": [
+      "Yes (clearly emotional)",
+      "No (neutral/informational)",
+      "Unclear"
+    ],
+    "text_present": [
+      "Text visible",
+      "No text"
+    ],
+    "scene_types": [
+      "War zone / active conflict",
+      "Children present",
+      "Encampment / camp",
+      "Call for demonstration / protest announcement",
+      "Solidarity campaign / awareness",
+      "Call for boycott / divestment / sanctions (BDS)",
+      "Interview / talk show / speaker portrait",
+      "Military / army / police presence",
+      "Protest / rally in progress",
+      "Vandalism / property damage",
+      "Political leader / spokesperson featured",
+      "Religious site / ritual / event",
+      "Flag / symbol prominently displayed",
+      "Fundraising / donation ask",
+      "Memorial / vigil / candles",
+      "Graphic violence (non-gore)",
+      "Graphic violence (gore)",
+      "Other / not listed"
+    ],
+    "support_for_terror": [
+      "Yes",
+      "No",
+      "Ambiguous / Unclear"
+    ],
+    "stance_target": [
+      "Pro-Israel",
+      "Anti-Israel",
+      "Pro-Palestinian",
+      "Anti-Zionist",
+      "Anti-Jewish (antisemitic content)",
+      "Pro-specific organization (named)",
+      "Other / N/A"
+    ],
+    "dominant_emotion": [
+      "Anger",
+      "Fear",
+      "Sadness",
+      "Disgust",
+      "Joy",
+      "Pride",
+      "Empathy / Compassion",
+      "Guilt / Shame",
+      "Awe",
+      "Neutral",
+      "Other"
+    ]
+  },
+  "rating_scale": {
+    "emotion_impact": {
+      "min": 1,
+      "max": 7
+    }
+  }
+}

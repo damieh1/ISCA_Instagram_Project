@@ -1,0 +1,82 @@
+<View>
+  <Header value="Image Classification: Anti-Israel Group Content (Research)"/>
+  <Image name="image" value="$image"/>
+
+  <!-- Section 1: Basic presence -->
+  <Header value="1) Basic Presence"/>
+  <Choices name="emotional_content" toName="image" choice="single" required="true">
+    <Choice value="Yes (clearly emotional)"/>
+    <Choice value="No (neutral/informational)"/>
+    <Choice value="Unclear"/>
+  </Choices>
+
+  <Choices name="text_present" toName="image" choice="single" required="true">
+    <Choice value="Text visible"/>
+    <Choice value="No text"/>
+  </Choices>
+
+  <!-- Section 2: Scene types (multi-label) -->
+  <Header value="2) Scene Types (select all that apply)"/>
+  <Choices name="scene_types" toName="image" choice="multiple">
+    <Choice value="War zone / active conflict"/>
+    <Choice value="Children present"/>
+    <Choice value="Encampment / camp"/>
+    <Choice value="Call for demonstration / protest announcement"/>
+    <Choice value="Solidarity campaign / awareness"/>
+    <Choice value="Call for boycott / divestment / sanctions (BDS)"/>
+    <Choice value="Interview / talk show / speaker portrait"/>
+    <Choice value="Military / army / police presence"/>
+    <Choice value="Protest / rally in progress"/>
+    <Choice value="Vandalism / property damage"/>
+    <Choice value="Political leader / spokesperson featured"/>
+    <Choice value="Religious site / ritual / event"/>
+    <Choice value="Flag / symbol prominently displayed"/>
+    <Choice value="Fundraising / donation ask"/>
+    <Choice value="Memorial / vigil / candles"/>
+    <Choice value="Graphic violence (non-gore)"/>
+    <Choice value="Graphic violence (gore)"/>
+    <Choice value="Other / not listed"/>
+  </Choices>
+
+  <!-- Section 3: Support for terrorism (judgment of depicted message) -->
+  <Header value="3) Does the image contain support for a terrorist organization?"/>
+  <Choices name="support_for_terror" toName="image" choice="single" required="true">
+    <Choice value="Yes"/>
+    <Choice value="No"/>
+    <Choice value="Ambiguous / Unclear"/>
+  </Choices>
+
+  <!-- Section 4: Stance/Targets (optional, multi) -->
+  <Header value="4) Stance or target (optional)"/>
+  <Choices name="stance_target" toName="image" choice="multiple">
+    <Choice value="Pro-Israel"/>
+    <Choice value="Anti-Israel"/>
+    <Choice value="Pro-Palestinian"/>
+    <Choice value="Anti-Zionist"/>
+    <Choice value="Anti-Jewish (antisemitic content)"/>
+    <Choice value="Pro-specific organization (named)"/>
+    <Choice value="Other / N/A"/>
+  </Choices>
+
+  <!-- Section 5: Emotional impact (rating + dominant emotion) -->
+  <Header value="5) Emotional Impact"/>
+  <Rating name="emotion_impact" toName="image" max="7" icon="star"/>
+  <Choices name="dominant_emotion" toName="image" choice="single">
+    <Choice value="Anger"/>
+    <Choice value="Fear"/>
+    <Choice value="Sadness"/>
+    <Choice value="Disgust"/>
+    <Choice value="Joy"/>
+    <Choice value="Pride"/>
+    <Choice value="Empathy / Compassion"/>
+    <Choice value="Guilt / Shame"/>
+    <Choice value="Awe"/>
+    <Choice value="Neutral"/>
+    <Choice value="Other"/>
+  </Choices>
+
+  <!-- Section 6: Text capture & notes -->
+  <Header value="6) Visible Text & Notes"/>
+  <TextArea name="transcribed_text" toName="image" rows="3" placeholder="Transcribe any visible text (banners, captions, signs)."/>
+  <TextArea name="notes" toName="image" rows="3" placeholder="Brief rationale; mention symbols/logos/flags or anything used to make decisions."/>
+</View>
