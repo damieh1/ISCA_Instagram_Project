@@ -5,7 +5,7 @@ This repository contains:
 - A **taxonomy & annotation guidelines** (`TAXONOMY.md`)
 - A **class list** (`classes.json`) for reference
 - Setup instructions for installing and running **Label Studio**
-- A **script** to extract outputs from **Label Studio** (`parse_labelstudio_export.py`
+- A **script** to extract outputs from **Label Studio** (`parse_labelstudio_export.py`)
 
 The goal of this project is to annotate **visual content posted by anti-Israel groups**.  
 Labels include **emotional content, text presence, scene types, potential support for terrorism, stance, and emotional impact**.  
