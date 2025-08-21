@@ -24,12 +24,13 @@ Select all that apply:
 - **War zone / active conflict** — explosions, rubble, armed units in action.
 - **Children present** — minors clearly shown.
 - **Encampment / camp** — tents, temporary shelters, refugee/IDP settings.
+- **Protest Encampment / Campus** — tents, university facilities, students.
+- **Protest / rally in progress.** — march, demeonstrations.  
 - **Call for demonstration / protest announcement** — flyer-style, date+place.
 - **Solidarity campaign / awareness** — ribbons, frames, slogans of support.
 - **Call for boycott / divestment / sanctions (BDS).**
 - **Interview / talk show / speaker portrait** — studio-style, lower-thirds, headshots.
 - **Military / army / police presence.**
-- **Protest / rally in progress.**
 - **Vandalism / property damage.**
 - **Political leader / spokesperson featured.**
 - **Religious site / ritual / event.**
