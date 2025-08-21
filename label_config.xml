@@ -20,7 +20,8 @@
   <Choices name="scene_types" toName="image" choice="multiple">
     <Choice value="War zone / active conflict"/>
     <Choice value="Children present"/>
-    <Choice value="Encampment / camp"/>
+    <Choice value="Encampment / refugee camp"/>
+    <Choice value="Campus Encampment / students"/>
     <Choice value="Call for demonstration / protest announcement"/>
     <Choice value="Solidarity campaign / awareness"/>
     <Choice value="Call for boycott / divestment / sanctions (BDS)"/>
