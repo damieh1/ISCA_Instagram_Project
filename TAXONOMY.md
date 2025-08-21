@@ -89,7 +89,7 @@ State the **minimal rationale** for key decisions and list any **symbols/logos/f
 - **Media type (single):** photo, poster, meme, screenshot, infographic.  
 - **Source platform (single):** Instagram, Facebook, X, Telegram, other.  
 
-If you want these, I can extend the XML and taxonomy with controlled vocabularies.
+*to discuss: If you want these, I can extend the XML and taxonomy with controlled vocabularies.*
 
 ---
 
